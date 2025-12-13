@@ -1,0 +1,10 @@
+Person
+Vehicle
+Pets
+Blizzard
+Heavy fog
+Haze
+Fire
+Rainstorm
+Sandstorms
+Heavy smoke

@@ -4,8 +4,7 @@ import cv2
 
 # --- Configuration ---
 # Path to model weights.
-model_path = 'yolov8n.pt'
-
+model_path = r"C:\Users\rache\Desktop\תואר מדעי המחשב\AI project\drone-for-your-safety-GenAI\runs\detect\sar_demo_model3\weights\best.pt"
 images_folder = 'test_images'
 
 print(f"Loading model from: {model_path}...")
@@ -32,7 +31,7 @@ for i, img_name in enumerate(image_files, 1):
     # Run inference pipeline
     # conf=0.25: Minimum confidence threshold for detections
     # save=True: Persist annotated images to disk
-    results = model.predict(source=img_path, save=True, conf=0.25)
+    results = model.predict(source=img_path, save=True, conf=0.15)
 
     # Process and log detection results
     for result in results:

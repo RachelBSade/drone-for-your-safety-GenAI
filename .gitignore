@@ -1,0 +1,10 @@
+Images_Dataset_Roboflow/
+HuggingFace_Dataset/
+Fire_Generetor_Script_and_Input/input_images_val_train/
+Fire_Generetor_Script_and_Input/input_images_test/
+Dataset_Fire_Generetor_Result/test/
+Dataset_Fire_Generetor_Result/train/
+Dataset_Fire_Generetor_Result/val/
+fire_and_thick_smoke.jpg
+yolo11n.pt
+data.yaml

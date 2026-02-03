@@ -1,0 +1,11 @@
+ultralytics
+torch
+opencv-python
+numpy
+tqdm
+pandas
+matplotlib
+diffusers
+transformers
+accelerate
+scipy
